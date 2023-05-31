@@ -1,0 +1,125 @@
+header {
+  background-color: rgb(115, 161, 82);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bi-list::before {
+  font-size: 26px;
+}
+
+
+.nav-pills .nav-link {
+  color: #FFF;
+}
+
+.nav-pills .nav-link.active {
+  background-color: #FFF;
+  color: rgb(115, 161, 82);
+  font-weight: bold;
+}
+
+.navbar-toggler {
+  border-color: #FFF;
+}
+
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0;
+}
+
+.carousel-item img {
+  height: 45vh;
+}
+
+.sobre {
+  background-color: rgb(208, 222, 199);
+}
+
+.sobre__img {
+  width: 45%;
+}
+
+.verde {
+  color: rgb(58, 129, 8);
+}
+
+@media screen and (max-width: 1045px) {
+  .sobre__img {
+    width: 100%;
+  }
+
+  .carousel-item img {
+    height: 30vh;
+  }
+
+}
+
+.cardapio {
+  background-color: rgb(208, 222, 199);
+}
+
+.cardapio__items-aside button {
+  border: none;
+  background-color: rgb(115, 161, 82);
+  color: #FFF;
+  text-align: start;
+}
+
+.cardapio__items-aside button:hover {
+  background-color: rgb(115, 161, 82);
+  border: #FFF .1px solid;
+}
+
+.cardapio__items-aside {
+  color: #FFF;
+}
+
+.cardapio__items-aside .active {
+  background-color: #FFF;
+  color: rgb(58, 129, 8);
+}
+
+.tab-content>.active {
+  display: flex;
+}
+
+aside .nav-link {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.contato button {
+  color: #FFF;
+  background-color: rgb(115, 161, 82);
+}
+
+textarea {
+  resize: none;
+}
+
+form label {
+  color: rgb(58, 129, 8);
+  font-weight: bold;
+}
+
+.redes ul {
+  padding: 0;
+  display: flex;
+  gap: 6px;
+}
+
+.redes li,
+.redes h5 {
+  font-size: 18px;
+  list-style: none;
+  color: rgb(58, 129, 8);
+  font-weight: bold;
+}
+
+li {
+  list-style: none;
+}
